@@ -36,11 +36,11 @@ public class Project {
     @Column(name = "endWork")
     private int endWork;
 
-    @Column(name = "costWork")
-    private int costWork;
+    @Column(name = "priceWork")
+    private int priceWork;
 
-    @Column(name = "price")
-    private int price;
+    @Column(name = "chiefEngineer")
+    private String chiefEngineer;
 
 }
 
