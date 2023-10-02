@@ -46,7 +46,7 @@ navigation">
         </thead>
         <tbody>
         <tr th:each="project: ${projects}">
-            <td th:text="${project.name}" />
+            <td th:text="${project.name1}" />
             <td th:text="${project.address}" />
             <td th:text="${project.typeWork}" />
             <td th:text="${project.startWork}" />
@@ -65,7 +65,7 @@ navigation">
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt1.10.25/datatables.min.js"></script>
 <script>
     $(document).ready(function() {
-        $("#projectTable").DataTable({
+        $("#studentTable").DataTable({
             'aoColumnDefs': [{
                 'bSortable': false,
                 'aTargets': [-1] /* 1st one, start by the right */

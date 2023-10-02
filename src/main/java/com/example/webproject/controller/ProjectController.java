@@ -30,7 +30,7 @@ public class ProjectController {
         log.info("/list->connection");
         ModelAndView mav = new ModelAndView("list-project");
         mav.addObject("projects", projectRepository.findAll());
-        userActionsService.savelog("User get all project");
+        userActionsService.savelog("User get all projects");
         return mav;
     }
 

@@ -33,9 +33,9 @@ navigation">
     <h3>Add New project </h3>
     <hr/>
     <form th:action="@{/saveProjectForm}" th:object="${projects}" method="POST">
-        <input type="text" th:field="*{name}" class="form-control col-4 mb-4" placeholder="Enter name project"/>
-        <input type="text" th:field="*{address}" class="form-control col-4 mb-4" placeholder="Enter project address"/>
-        <input type="text" th:field="*{typeWork}" class="form-control col-4 mb-4" placeholder=" Enter project type"/>
+        <input type="text" th:field="*{name1}" class="form-control col-4 mb-4" placeholder="Enter name project"/>
+        <input type="text" th:field="*{address}" class="form-control col-4 mb-4" placeholder="Enter address"/>
+        <input type="text" th:field="*{typeWork}" class="form-control col-4 mb-4" placeholder=" Enter type work "/>
         <input type="text" th:field="*{startWork}" class="form-control col-4 mb-4" placeholder="Enter getting started"/>
         <input type="text" th:field="*{endWork}" class="form-control col-4 mb-4" placeholder="Enter the end of work"/>
         <input type="text" th:field="*{priceWork}" class="form-control col-4 mb-4" placeholder="Enter the cost of the work"/>

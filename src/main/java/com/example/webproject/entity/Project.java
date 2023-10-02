@@ -1,7 +1,5 @@
 package com.example.webproject.entity;
 
-
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,8 +19,8 @@ public class Project {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "name1")
+    private String name1;
 
     @Column(name = "address")
     private String address;
@@ -31,13 +29,13 @@ public class Project {
     private String typeWork;
 
     @Column(name = "startWork")
-    private int startWork;
+    private String startWork;
 
     @Column(name = "endWork")
-    private int endWork;
+    private String endWork;
 
     @Column(name = "priceWork")
-    private int priceWork;
+    private String priceWork;
 
     @Column(name = "chiefEngineer")
     private String chiefEngineer;
